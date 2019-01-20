@@ -44,7 +44,7 @@ public class CrudExample {
         employeeRepository.delete(0);
 
         log.info("updating specified employee from table");
-        employeeRepository.update(EmployeeEntity.builder().id(2).name("ISA KALINSAZ").city("Istanbul").age(29).build());
+        //employeeRepository.update(EmployeeEntity.builder().id(2).name("").city("").age().build());
 
     }
 }
