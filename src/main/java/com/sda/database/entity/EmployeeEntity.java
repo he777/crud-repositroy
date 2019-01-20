@@ -1,13 +1,11 @@
 package com.sda.database.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @Builder
 @AllArgsConstructor
+@ToString
 @NoArgsConstructor
 public class EmployeeEntity {
 
